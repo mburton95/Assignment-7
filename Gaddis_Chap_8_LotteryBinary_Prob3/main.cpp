@@ -58,11 +58,6 @@ int binary(const int list[], int size, int val) {
      pos = -1; // position of search val 
     int total = 0; // count number of digits in val
     bool match = false; // flag
-    while(val>0)
-    {
-        val=val/10;
-        total++;
-    }
    
     for(int i = 0 ; i < size; i++)
    
@@ -76,15 +71,12 @@ int binary(const int list[], int size, int val) {
             pos = middle;
         }
         else if(list[middle] > val) // if value is lower than half
-            last = middle + 1;
+            last = middle - 1;
         else 
             first = middle + 1; // if value is in upper half
         
     }
-     if(val<5)
-    {
-        pos = -1;
-    }
+    
     
     return pos;
 }
