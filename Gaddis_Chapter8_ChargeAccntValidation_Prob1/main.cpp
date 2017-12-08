@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Marcus Burton   
  * Created on November 28th 2017    
- * Purpose:  INSERT PURPOSE HERE
+ * Purpose:  Use a linear search to compare users ID number to numbers in database
  */
 
 //System Libraries
@@ -27,7 +27,7 @@ int main(int argc, char** argv) {
                  8080152, 4562555, 5552012, 5050552, 7825877, 1250255,
                  1005231, 6545231, 3852085, 7576651, 7881200, 4581002};
     //Input Data/Variables
-   
+   //While there's no match, keep checking.
     while(result==-1)
     {
     

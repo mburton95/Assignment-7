@@ -2,8 +2,9 @@
  * File:   main.cpp
  * Author: Marcus Burton   
  * Created on December 4th 2017, 8:40AM
- * Purpose:  Initiate an array with lottery numbers and lets user enter the winning number
- */
+ * Purpose:  Use a binary search to compare users lottery numbers to those in the database
+ * 
+ * */
 
 //System Libraries Here
 #include <iostream>

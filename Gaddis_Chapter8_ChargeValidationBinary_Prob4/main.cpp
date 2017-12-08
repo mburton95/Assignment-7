@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Marcus Burton   
  * Created on November 28th 2017    
- * Purpose:  INSERT PURPOSE HERE
+ * Purpose:  Use a binary search to compare users account number to those in the database
  */
 
 //System Libraries

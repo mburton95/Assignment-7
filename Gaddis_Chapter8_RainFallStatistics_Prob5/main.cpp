@@ -2,7 +2,8 @@
  * File:   main.cpp
  * Author: Marcus Burton   
  * Created on November 28th 2017    
- * Purpose:  INSERT PURPOSE HERE
+ * Purpose:  Enter the rainfall of each month, calculate highest and lowest rainfall
+ * months, and sort them from highest to lowest
  */
 
 //System Libraries
