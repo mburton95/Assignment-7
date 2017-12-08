@@ -66,7 +66,8 @@ void namesrt(string names[],int size)
         minval=names[scan];
         for(int i = scan+1; i<size;i++) // comparing to next string value
         {
-            if(names[i].compare(minval)<0)
+            // checking to see if names[i] comes first in the alphabet before the previous first in the alphabet
+            if(names[i].compare(minval)<0) //I hope using.compare is okay at this level, I found about it online
             {
                 minval=names[i];
                 minIndx=i;
